@@ -1,0 +1,35 @@
+baseURL = 'https://gaomian.org'
+languageCode = 'zh-cn'
+title = '高勉的技术分享'
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "高勉"
+  description = "博客描述"
+  ShowToc = true
+
+[author]
+  name = "高勉"
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "博客"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "联系我"
+    url = "/about/"
+    weight = 3
