@@ -2,7 +2,7 @@
 date = '2026-03-03T10:45:33+08:00'
 draft = false
 title = '告别笨重的虚拟机！Windows系统使用WSL优雅运行Linux全攻略'
-description = "摘要：想在Windows上跑Linux？别再装虚拟机了！本文详细讲解WSL(Windows Subsystem for Linux)的优势，手把手教你通过命令行及Microsoft Store安装Ubuntu系统，涵盖从环境配置、系统启动到彻底卸载的完整流程，助你打造轻量级开发环境。"
+description = "摘要：文章分享了WSL(Windows Subsystem for Linux)的优势，手把手教你通过命令行及Microsoft Store安装linux系统的完整流程，以及应用技巧，助你打造轻量级开发环境。"
 tags = ["WSL", "Linux", "Windows", "Ubuntu", "虚拟机", "教程"]
 +++
 

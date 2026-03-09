@@ -1,9 +1,28 @@
 baseURL = 'https://gaomian.org'
 languageCode = 'zh-cn'
-title = '高勉的技术分享'
+title = '高勉的技术分享 | 专注于 ai、 Web 开发、app开发以及关于IT领域思考的干货'
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+paginate = 10
+
+# 开启搜索和RSS必须加这个
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+# 分类系统
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+[params.profileMode]
+
+    enabled = true
+    title = "你好，我是高勉 👋，欢迎来到我的博客" # 这也会生成一个 <h1>
+    subtitle = "本网站致力于分享有价值的IT技术信息和技术思考，专注于记录 ai、 Web 开发、app开发以及其它IT领域的干货。"
 
 [markup]
   [markup.goldmark]
@@ -33,3 +52,13 @@ defaultContentLanguageInSubdir = false
     name = "联系我"
     url = "/about/"
     weight = 3
+
+  [[menu.main]]
+    name = "Privacy (EN)"
+    url = "/privacy/"
+    weight = 4
+
+  [[menu.main]]
+    name = "隐私政策 (CN)"
+    url = "/privacy-cn/"
+    weight = 5

@@ -1,0 +1,33 @@
+name: Deploy Hugo Blog
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.157.0'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to Server
+        uses: burnett01/rsync-deployments@6.0.0
+        with:
+          switches: -avzr --delete
+          path: public/
+          remote_path: /opt/1panel/www/sites/gaomian.org/index/
+          remote_host: ${{ secrets.HOST }}
+          remote_user: ${{ secrets.USER }}
+          remote_key: ${{ secrets.BLOG }}

@@ -14,7 +14,7 @@ hideMeta = true
       <li><strong>微信：</strong>gao_mygoh</li>
     </ul>
   </div>
-  <img src="/images/me.jpg" alt="我的照片" style="width:120px; border-radius:50%; margin-left:30px;" />
+  <img src="/images/me.jpg" alt="我的照片" style="width:130px; border-radius:50%; margin-left:30px;" />
 </div>
 
 ## 工作经历
