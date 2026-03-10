@@ -13,7 +13,7 @@ wsl工具真的是太好用了！
 
 简单汇总一下wsl的优势：
 
-# wsl优势
+## 1、wsl优势
 
 1、安装超级快，一键安装
 
@@ -30,7 +30,7 @@ wsl 全称是 Windows Subsystem for Linux。看名字就可以想到，这是 wi
 
 该工具的底层逻辑本文就不分析了，读者可以自行查阅。本文直接讲怎么用：
 
-# wsl的安装
+## 2、wsl的安装
 
 用管理员角色运行PowerShell，输入 `wsl --install` 。
 
@@ -40,7 +40,7 @@ wsl 全称是 Windows Subsystem for Linux。看名字就可以想到，这是 wi
 
 安装完成之后，需要重启你的计算机。因为一些底层功能需要重启才能生效。
 
-# linux系统的安装
+## 3、linux系统的安装
 
 有了工具还不够，因为工具只是一个平台，我们还需要在平台上搭建系统。
 
@@ -86,7 +86,7 @@ wsl 全称是 Windows Subsystem for Linux。看名字就可以想到，这是 wi
 ![](7.png)
 
 
-# linux启动
+## 4、linux启动
 
 安装 linux 系统成功之后，我们尝试启动它。启动 linux 的方式有如下两种：
 
@@ -112,7 +112,7 @@ wsl 全称是 Windows Subsystem for Linux。看名字就可以想到，这是 wi
 
 另外，如果想退出 linux 系统，回到win系统的话，就输入`exit`即可。
 
-# linux系统卸载
+## 5、linux系统卸载
 
 如果这个系统不想要了，可以通过以下两种方式删除：
 
