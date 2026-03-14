@@ -1,6 +1,6 @@
 baseURL = 'https://gaomian.org'
 languageCode = 'zh-cn'
-title = '高勉的技术分享 | 专注于 ai、 Web 开发、app开发以及关于IT领域思考的干货'
+title = '高勉的技术分享 | 专注分享ai及其它IT领域的干货'
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
