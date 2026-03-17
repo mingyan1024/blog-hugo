@@ -6,9 +6,13 @@ defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
-[params.homeInfoParams]
-  title = "你好，欢迎来到高勉的技术分享 👋" 
-  content = "本网站致力于分享有价值的IT信息和技术思考，专注于记录 ai、 Web 开发、app开发以及其它IT领域的干货。"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.profileMode]
+  enabled = true
+  title = "您好，欢迎来到高勉的技术分享 👋" 
+  subtitle  = "<br>本网站致力于分享有价值的IT信息和技术思考，专注于记录 ai、 Web 开发、app开发及其它IT领域的干货。<br><br><br>您可以点击导航栏的博客进行浏览，也可以在文章分类处找到喜欢的文章，或者在搜索栏找到关键词对应的文章"
 
 [pagination]
   pagerSize = 5
@@ -40,16 +44,31 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
+  name = "文章分类"
+  url = "/categories/"
+  weight = 3
+
+
+    [[menu.main]]
+  name = "搜索"
+  url = "/search/"
+  weight = 4
+
+  [[menu.main]]
     name = "联系我"
     url = "/about/"
-    weight = 3
+    weight = 5
+
 
   [[menu.main]]
     name = "Privacy (EN)"
     url = "/privacy/"
-    weight = 4
+    weight = 6
 
   [[menu.main]]
     name = "隐私政策 (CN)"
     url = "/privacy-cn/"
-    weight = 5
+    weight = 7
+  
+
+  
