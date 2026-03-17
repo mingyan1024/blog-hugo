@@ -25,7 +25,7 @@ enableRobotsTXT = true
 
 [params]
   author = "高勉"
-  description = "博客描述"
+  description = "高勉的技术博客，专注分享 AI、Web 开发、App 开发领域的实用教程与技术思考，帮助开发者少走弯路。"
   ShowToc = true
   assets.favicon = "/favicon.ico"
 
