@@ -4,6 +4,7 @@ draft = false
 title = '两个免费静态网页托管平台：GitHub Pages 与 Cloudflare Pages 使用教程'
 description = '摘要：介绍 GitHub Pages 和 Cloudflare Pages 两个免费的静态网页托管平台，手把手教你如何发布个人简历、博客或个人网站，零费用轻松上线。'
 tags = ['GitHub', 'CloudFlare', '建站', '建站教程', '个人博客', '静态网站', '免费托管']
+categories = ["web建站"]
 +++
 
 本文通过实战案例，跟大家分享两个免费托管静态页面的平台。

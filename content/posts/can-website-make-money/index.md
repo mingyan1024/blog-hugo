@@ -4,6 +4,7 @@ draft = false
 title = '做个人网站还能赚钱吗？深度解析网站变现思路以及自媒体平台的劣势'
 tags = ["建站", "被动收入", "Google AdSense", "个人博客", "独立站", "SEO", "WordPress", "Hugo"]
 description = "摘要：文章分享了个人建站、SEO优化、网站变现的实战经验，涵盖Hugo、WordPress、Google AdSense等实用内容"
+categories = ["web建站"]
 +++
 
 这里先声明一下：本文所说的建网站赚钱，指的是搭建个人网站。然后，依托网站赚钱，而不是帮别人建网站挣人工费。

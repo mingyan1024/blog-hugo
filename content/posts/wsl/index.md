@@ -4,6 +4,7 @@ draft = false
 title = '告别笨重的虚拟机！Windows系统使用WSL优雅运行Linux全攻略'
 description = "摘要：文章分享了WSL(Windows Subsystem for Linux)的优势，手把手教你通过命令行及Microsoft Store安装linux系统的完整流程，以及应用技巧，助你打造轻量级开发环境。"
 tags = ["WSL", "Linux", "Windows", "Ubuntu", "虚拟机", "教程"]
+categories = ["IT工具"]
 +++
 
 wsl工具真的是太好用了！

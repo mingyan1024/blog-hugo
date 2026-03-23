@@ -4,6 +4,7 @@ draft = false
 title = '最新 OpenClaw 安装配置全攻略：Windows本地部署+接入飞书保姆级教程，一步一步教你实现'
 tags = ["OpenClaw", "AI Agent", "建站教程", "Windows部署", "WSL", "飞书机器人", "Qwen", "本地大模型"]
 description = "摘要：本文手把手教你在 Windows 系统下安装和配置 OpenClaw 中文社区版，并接入飞书机器人。本教程涵盖基础部署、本地控制台设置、Qwen大模型无缝对接以及飞书机器人的完整接入流程，助你快速打造专属 AI Agent。"
+categories = ["AI相关"]
 +++
 
 OpenClaw 是 IT 圈 2026 年开年的绝对顶流，在之前的文章中 [《AI Agent是什么？从概念原理到开发实战全解析》](https://gaomian.org/posts/ai-agent/)，笔者详细分析了 OpenClaw 以及 ai agent 的本质。

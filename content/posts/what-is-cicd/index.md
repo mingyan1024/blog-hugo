@@ -4,7 +4,7 @@ draft = false
 title = '什么是 CI/CD？结合 GitHub Actions 与 Hugo 的自动化部署教程，手把手教你使用'
 description = '摘要：用通俗易懂的语言，讲解了 CI/CD 的核心概念，并通过真实案例，手把手教你如何使用 GitHub Actions 将 Hugo 博客自动部署到云服务器。'
 tags = ['CI/CD', 'GitHub Actions', 'Hugo', '自动化部署', 'DevOps']
-categories = ['web开发']
+categories = ['web建站']
 +++
 
 
