@@ -9,6 +9,10 @@ enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-QHMXZN4MX8"  # 替换成你的衡量 ID
+
 [params.profileMode]
   enabled = true
   title = "您好，欢迎来到高勉的技术分享 👋" 
